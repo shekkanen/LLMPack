@@ -15,15 +15,20 @@ The core concept involves using LLMs to encode raw data into a structured prompt
 5. **Transmission**: Send encoded data via standard communication channels.
 6. **Decoding**: Decode the prompts back into the original data at the receiver’s end using a pre-trained LLM.
 
-### Examples
-**Example 1:** Conceptualizing Data Compression with LLMs
-This example explores the concept of using Large Language Models (LLMs) for data compression. It outlines a system where data is transformed into a concise, structured prompt using a "summary-to-detail expansion" technique. This approach leverages the generative capabilities of LLMs, like GPT-3 or BERT, to significantly condense and expand data, demonstrating potential methods for practical implementation using the transformers library.
+# Examples
 
-**Example 2:** Practical Implementation with Python
-Example 2 provides Python code to implement the conceptual framework discussed in Example 1. It demonstrates how to encode and decode textual data by extracting keywords, using them to create structured prompts, and then reconstructing the original data using a pre-trained LLM. The example includes a detailed Python script that utilizes the transformers library, illustrating how the encoding and decoding processes might work in practice.
+## Example 1: Exploring Summarization and Text Generation
+This example demonstrates the use of Large Language Models (LLMs) for data compression followed by data expansion. It utilizes the summarization pipeline to compress text into a summarized form and then encodes this summary into a hexadecimal format. The decompression process involves decoding this format back into text and using a text-generation model to expand this summary into a more detailed form. This showcases a novel use of LLMs, leveraging both summarization and generative capabilities of models like GPT-2.
 
-**Example 3:** Advanced Encoding and Decoding
-Building on the previous examples, Example 3 offers an advanced demonstration of encoding and decoding functions using Python. It simulates a local LLM process to extract keywords from data and uses these keywords to create prompts. These prompts, along with a seed for randomness, are used to encode the data. A pre-trained LLM is then employed to decode these prompts back into the original data format, showcasing the full cycle of data compression and expansion in a practical setting.
+## Example 2: Keyword Extraction and Data Regeneration
+Example 2 demonstrates a practical approach to text data compression using a simple keyword extraction method. The extracted keywords are used to create a compressed prompt, which is then expanded back into a detailed text using GPT-2. This example provides a Python script that illustrates how encoding with simple keyword extraction and decoding with a pre-trained LLM can be implemented to regenerate the original text content, highlighting the utility of LLMs in processing and regenerating information.
+
+## Example 3: Advanced Summarization with BART
+Building on the concepts introduced in earlier examples, Example 3 showcases an advanced usage of Python and the transformers library to implement data compression and expansion using BART, a transformer-based model known for its effectiveness in text summarization. It details how to compress data into a summary and then attempts to expand this summary back into a detailed text using sequence generation, thereby illustrating a complete cycle of data transformation using summarization and expansion techniques.
+
+## Example 4: Embedding Compression and Expansion Using DistilBERT and GPT-2
+Example 4 provides a method for compressing text into embeddings using DistilBERT and then expanding these embeddings into detailed text using GPT-2. This example highlights a hybrid approach, where compression is achieved through neural network embeddings and expansion is handled by generative text modeling. It illustrates a sophisticated use of AI techniques to handle data compression and expansion, showcasing the potential for integrating multiple models to achieve complex tasks like data regeneration from compressed representations.
+
 
 ### Related studies
 D. Shin, "[Better Text Compression Using a Large Language Model](https://www.tdcommons.org/dpubs_series/6155)," *Technical Disclosure Commons*, August 21, 2023.
