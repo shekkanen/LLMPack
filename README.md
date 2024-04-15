@@ -15,32 +15,10 @@ The core concept involves using LLMs to encode raw data into a structured prompt
 5. **Transmission**: Send encoded data via standard communication channels.
 6. **Decoding**: Decode the prompts back into the original data at the receiver’s end using a pre-trained LLM.
 
-## Installation
+### Related studies
+D. Shin, "[Better Text Compression Using a Large Language Model](https://www.tdcommons.org/dpubs_series/6155)," *Technical Disclosure Commons*, August 21, 2023.
 
-Clone the repository:
-```bash
-git clone https://github.com/your-username/llm-data-compression.git
-```
-
-Navigate to the project directory:
-```bash
-cd llm-data-compression
-```
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-To use this application, follow these steps:
-```bash
-# Example of encoding data
-python encode.py --input your_data.txt --output encoded_data.txt
-
-# Example of decoding data
-python decode.py --input encoded_data.txt --output original_data.txt
-```
+David Gili Fernández de Romarategui, "[Compressing Network Data with Deep Learning](https://upcommons.upc.edu/bitstream/handle/2117/406468/183323.pdf?sequence=2&isAllowed=y)," Master's thesis, Facultat d'Informàtica de Barcelona (FIB), Universitat Politècnica de Catalunya (UPC) - BarcelonaTech, Thesis Supervisors: Pere Barlet Ros, José Suárez-Varela, Master's Degree in Data Science.
 
 ## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
