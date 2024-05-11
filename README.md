@@ -85,4 +85,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - Special thanks to [Third-Party Library Name] for providing essential tools that facilitate this research.
 
 ### Contact
-For inquiries or feedback, please contact us at [Your Email](mailto:your.email@example.com).
+For inquiries or feedback, please contact me at [sami.hekkanen@gmail.com](mailto:sami.hekkanen@gmail.com).
+
