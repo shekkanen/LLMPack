@@ -1,8 +1,26 @@
 # LLMPack
-## Large Language Model (LLM) Data Compression
+## AI-model based Stream Data Compression
+![Your Diagram Title](/the_idea.png)
+
+### Concept Overview
+
+**Idea in a Nutshell:**
+- **Data Compression with AI Models:** We utilize advanced AI models (e.g., diffusion models, large language models) to compress data. The data can be of any type, and the compressed output consists solely of sequences of prompt+seed strings, augmented with standard error correction techniques.
+  
+**Key Considerations:**
+- **Technological Constraints:** Current technological limitations include high electricity and power demands, significant VRAM requirements, and the absence of a suitable model specifically designed for this purpose.
+  
+**Project Status:**
+- **Research and Development:** This concept is currently in the exploratory phase. I have not conducted comprehensive research to determine if similar solutions already exist; this project represents a preliminary exploration of potential innovative applications.
+- **Proof of Concept:** As of now, this repository does not contain fully functional code, but rather simple tests and demonstrations of the underlying principles.
+
+**Disclaimer:**
+- This project is a conceptual demonstration intended to spur further investigation and development within the community.
+
+
 
 ### Introduction
-LLMPack is an open-source project that explores innovative data compression methods using Large Language Models (LLMs). This project leverages the advanced generative capabilities of LLMs to encode substantial data volumes into concise prompts accompanied by seeds, facilitating significant data compression and efficient data transfer. The initiative aims to refine, develop, and standardize LLM-based data encoding and decoding, pushing beyond the limits of conventional data compression techniques.
+LLMPack is an open-source project that explores innovative data compression methods using AI-models. This project leverages the advanced generative capabilities of LLMs to encode substantial data volumes into concise prompts accompanied by seeds, facilitating significant data compression and efficient data transfer. The initiative aims to refine, develop, and standardize LLM-based data encoding and decoding, pushing beyond the limits of conventional data compression techniques.
 
 ### Concept
 The principal concept of LLMPack is to utilize LLMs for encoding raw data into structured prompts that are decoded back to their original form or a close approximation thereof. This process relies on the sophisticated natural language processing capabilities of models such as GPT-3 or BERT, which are adept at generating and interpreting detailed text from minimal inputs.
