@@ -20,10 +20,11 @@
 
 
 ### Introduction
-LLMPack is an open-source project that explores innovative data compression methods using AI-models. This project leverages the advanced generative capabilities of LLMs to encode substantial data volumes into concise prompts accompanied by seeds, facilitating significant data compression and efficient data transfer. The initiative aims to refine, develop, and standardize LLM-based data encoding and decoding, pushing beyond the limits of conventional data compression techniques.
+LLMPack is an open-source project that explores innovative methods of data compression using AI models. This project leverages the advanced generative capabilities of these models to encode substantial data volumes into concise prompts accompanied by seeds, facilitating significant data compression and efficient data transfer. The initiative aims to refine, develop, and standardize AI-model-based data encoding and decoding, pushing beyond the limits of conventional data compression techniques.
+
 
 ### Concept
-The principal concept of LLMPack is to utilize LLMs for encoding raw data into structured prompts that are decoded back to their original form or a close approximation thereof. This process relies on the sophisticated natural language processing capabilities of models such as GPT-3 or BERT, which are adept at generating and interpreting detailed text from minimal inputs.
+The principal concept of LLMPack is to utilize AI-models for encoding raw data into structured prompts that are decoded back to their original form or a close approximation thereof. 
 
 ### Workflow
 The workflow of LLMPack includes several key stages:
