@@ -80,10 +80,6 @@ We welcome contributions from the open-source community. For more information on
 ### License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-### Acknowledgements
-- We extend our gratitude to all contributors and collaborators who have invested their time and effort into the success of this project.
-- Special thanks to [Third-Party Library Name] for providing essential tools that facilitate this research.
-
 ### Contact
 For inquiries or feedback, please contact me at [sami.hekkanen@gmail.com](mailto:sami.hekkanen@gmail.com).
 
