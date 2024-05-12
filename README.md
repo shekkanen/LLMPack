@@ -75,7 +75,7 @@ This example demonstrates the compression of text and its tokens using the zlib 
 - David Gili Fernández de Romarategui, "[Compressing Network Data with Deep Learning](https://upcommons.upc.edu/bitstream/handle/2117/406468/183323.pdf?sequence=2&isAllowed=y)," Master's Thesis, Facultat d'Informàtica de Barcelona (FIB), Universitat Politècnica de Catalunya (UPC) - BarcelonaTech, Thesis Supervisors: Pere Barlet Ros, José Suárez-Varela, Master's Degree in Data Science.
 
 ### Contributing
-We welcome contributions from the open-source community. For more information on how to contribute, please refer to `CONTRIBUTING.md`.
+I welcome contributions from the open-source community. For more information on how to contribute, please refer to `CONTRIBUTING.md`.
 
 ### License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
